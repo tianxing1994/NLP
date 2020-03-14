@@ -184,12 +184,12 @@ class HMM4MLE(object):
 
 
 def demo():
-    with open("../dataset/nlp/hmm_corpus/pku_training.utf8", "r", encoding="utf-8") as f:
+    with open("../dataset/hmm_corpus/pku_training.utf8", "r", encoding="utf-8") as f:
         # pku_training = f.readlines()
         pku_training = f.read()[3:]
     X = pku_training.split("  ")
 
-    with open("../dataset/nlp/hmm_corpus/novel.txt", "r+", encoding="utf-8") as f:
+    with open("../dataset/hmm_corpus/novel.txt", "r+", encoding="utf-8") as f:
         # result = f.readlines()
         novel = f.read()[3:]
     novel = novel.strip()
