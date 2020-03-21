@@ -2,4 +2,8 @@
 
 .idea
 
+dataset/chinese_document
+dataset/jieba_dataset
 dataset/max_matching_corpus
+dataset/nlp_data
+dataset/others
