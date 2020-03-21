@@ -2,6 +2,9 @@
 参考链接:
 https://blog.csdn.net/qq_37667364/article/details/81071190
 
+语料下载:
+https://pan.baidu.com/s/1mIHvZr5cwDL_Wgem4uyJmA
+
 每一个字的 4 个隐状态:
 start(该字是一个词的开头)
 middle (该字是一个词的中间部分)
@@ -184,12 +187,12 @@ class HMM4MLE(object):
 
 
 def demo():
-    with open("../dataset/hmm_corpus/pku_training.utf8", "r", encoding="utf-8") as f:
+    with open("../../dataset/hmm_corpus/pku_training.utf8", "r", encoding="utf-8") as f:
         # pku_training = f.readlines()
         pku_training = f.read()[3:]
     X = pku_training.split("  ")
 
-    with open("../dataset/hmm_corpus/novel.txt", "r+", encoding="utf-8") as f:
+    with open("../../dataset/hmm_corpus/novel.txt", "r+", encoding="utf-8") as f:
         # result = f.readlines()
         novel = f.read()[3:]
     novel = novel.strip()
