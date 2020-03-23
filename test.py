@@ -1,5 +1,10 @@
-import jieba
+while True:
+    n = int(input())
+    array = set()
+    for i in range(n):
+        array.add(int(input()))
 
-sent = "在包含问题的所有解的解空间树中, 按照深度优先搜索的策略, 从根节点出发深度探索解空间树. "
-word_list = jieba.cut_for_search(sent)
-print(list(word_list))
+    array = sorted(list(array))
+    for i in range(len(array)):
+        print(array[i])
+

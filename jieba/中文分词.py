@@ -1,4 +1,5 @@
 import jieba
+import jieba.analyse
 
 
 def demo1():
@@ -88,5 +89,33 @@ def demo6():
     return
 
 
+def demo7():
+    """
+    Tokenize: 返回词语在原文的起止位置
+    """
+    print(' 默认模式')
+    result = jieba.tokenize('永和服装饰品有限公司')
+    for tk in result:
+        print("word %s\t\t start: %d \t\t end:%d" % (tk[0], tk[1], tk[2]))
+
+    print(' 搜索模式')
+    result = jieba.tokenize('永和服装饰品有限公司', mode='search')
+    for tk in result:
+        print("word %s\t\t start: %d \t\t end:%d" % (tk[0], tk[1], tk[2]))
+    return
+
+
+def demo8():
+    content = "李小福是创新办主任也是云计算方面的专家; 什么是八一双鹿\n" \
+              "例如我输入一个带“韩玉赏鉴”的标题，在自定义词库中也增加了此词为N类\n" \
+              "「台中」正確應該不會被切開。mac上可分出「石墨烯」；此時又可以分出來凱特琳了。"
+
+    jieba.analyse.set_idf_path("../dataset/jieba_dataset/extra_dict/idf.txt.big")
+
+    tags = jieba.analyse.extract_tags(content, topK=10, withWeight=True)
+    print(tags)
+    return
+
+
 if __name__ == '__main__':
-    demo6()
+    demo8()
