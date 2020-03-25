@@ -12,5 +12,13 @@ def demo1():
     return
 
 
+def demo2():
+    sent = "程序员祝海林和朱会震是在孙健的左面和右面, 范凯在最右面.再往左是李松洪"
+    ret = pseg.cut(sent, use_paddle=True)
+    print(list(ret))
+    return
+
+
 if __name__ == '__main__':
-    demo1()
+    # demo1()
+    demo2()
