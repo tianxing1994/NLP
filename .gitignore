@@ -7,3 +7,4 @@ dataset/jieba_dataset
 dataset/max_matching_corpus
 dataset/nlp_data
 dataset/others
+dataset/part_of_speech_tagging_data

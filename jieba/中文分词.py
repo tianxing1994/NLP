@@ -106,14 +106,14 @@ def demo7():
 
 
 def demo8():
-    content = "李小福是创新办主任也是云计算方面的专家; 什么是八一双鹿\n" \
-              "例如我输入一个带“韩玉赏鉴”的标题，在自定义词库中也增加了此词为N类\n" \
-              "「台中」正確應該不會被切開。mac上可分出「石墨烯」；此時又可以分出來凱特琳了。"
-
-    jieba.analyse.set_idf_path("../dataset/jieba_dataset/extra_dict/idf.txt.big")
-
-    tags = jieba.analyse.extract_tags(content, topK=10, withWeight=True)
-    print(tags)
+    """
+    paddle 模式: 利用 PaddlePaddle 深度学习框架, 训练序列标注 (双向 GRU) 网络模型实现分词.
+    同时支持词性标注. (应该是百度提供的分词模型). pip install paddlepaddle-tiny==1.6.1
+    """
+    content = "工信处女干事每月经过下属科室都要亲口交代24口交换机等技术性器件的安装工作"
+    # use_paddle: 是否使用 paddle 模式下的分词模式.
+    word_iterator = jieba.cut(content, use_paddle=True)
+    print(list(word_iterator))
     return
 
 

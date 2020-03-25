@@ -1,10 +1,5 @@
-while True:
-    n = int(input())
-    array = set()
-    for i in range(n):
-        array.add(int(input()))
 
-    array = sorted(list(array))
-    for i in range(len(array)):
-        print(array[i])
+l = [('c', 2), ('b', 2), ('a', 1), ('b', 1), ('c', 1)]
 
+ret = sorted(l, key=lambda x: (x[0], x[1]))
+print(ret)
