@@ -260,8 +260,8 @@ def load_data(data_path):
 
 def demo1():
     # 训练并在测试集上查看效果.
-    train_data_path = '../../dataset/part_of_speech_tagging_data/train.txt'
-    test_data_path = '../../dataset/part_of_speech_tagging_data/test.txt'
+    train_data_path = '../../dataset/part_of_speech_tagging_data/others/train.txt'
+    test_data_path = '../../dataset/part_of_speech_tagging_data/others/test.txt'
 
     sentences = load_data(train_data_path)
     print(f"load train data done: {sentences}")
