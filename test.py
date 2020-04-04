@@ -1,5 +1,14 @@
+import numpy as np
 
-l = [('c', 2), ('b', 2), ('a', 1), ('b', 1), ('c', 1)]
 
-ret = sorted(l, key=lambda x: (x[0], x[1]))
+nd1 = np.array([1, 2, 3])
+nd2 = np.array([1, 2, 3]).T
+
+ret = nd1 + nd2
 print(ret)
+
+
+
+
+
+
