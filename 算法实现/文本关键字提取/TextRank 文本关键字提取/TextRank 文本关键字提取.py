@@ -24,6 +24,7 @@ import jieba.posseg as pseg
 
 class TextRank(object):
     def __init__(self, window_size=3, damping=0.85, max_iters=700):
+        # damping: 没有阻尼系数, 结果会一直震荡, 不会收敛.
         self._window_size = window_size
         self._damping = damping
         self._max_iters = max_iters

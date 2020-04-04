@@ -1,4 +1,10 @@
 """
+参考链接:
+https://blog.csdn.net/say_c_box/article/details/78550659
+
+数据集下载地址:
+https://github.com/ningshixian/hmm-viterbi-Ch-POS
+
 corpus_POS.txt:
 存在这样的多重标注: [胜利/nz 海上/s 油田/n]nt 产/v 油/n 创/v 新高/n
 split(sep=' ') 的结果为: ['[胜利/nz', '海上/s', '油田/n]nt', '产/v', '油/n', '创/v', '新高/n']
