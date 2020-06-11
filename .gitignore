@@ -8,3 +8,5 @@ dataset/max_matching_corpus
 dataset/nlp_data
 dataset/others
 dataset/part_of_speech_tagging_data
+dataset/fasttest_dataset/cooking.stackexchange
+dataset/novel
