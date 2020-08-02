@@ -1,19 +1,25 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
+"""
+tensorflow 训练 skip-gram 词向量.
+
+参考链接:
+https://blog.csdn.net/just_sort/article/details/87886385
+
+数据下载链接:
+http://mattmahoney.net/dc/text8.zip
+"""
 from collections import Counter, deque
 import math
 import os
 import random
 import numpy as np
 import tensorflow as tf
-from dotenv import load_dotenv
-
-
-url = 'http://mattmahoney.net/dc/'
 
 
 class SkipGram(object):
-    def __init__(self, fpath, vocabulary_size=5000, window=1, num_skips=2, batch_size=128, embedding_size=128, num_sampled=64, model_path='model/skip_gram.ckpt'):
+    def __init__(self, fpath, vocabulary_size=5000, window=1, num_skips=2, batch_size=128,
+                 embedding_size=128, num_sampled=64, model_path='model/skip_gram.ckpt'):
         self._fpath = fpath
         self._global_index = 0
 
@@ -144,7 +150,7 @@ class SkipGram(object):
 
         init = tf.global_variables_initializer()
 
-        num_steps = 100000
+        num_steps = 100001
 
         saver = tf.train.Saver(max_to_keep=3)
 
@@ -173,14 +179,13 @@ class SkipGram(object):
                 )
                 average_loss += loss_val
 
-                if step % 2000 == 0:
-                    if step > 0:
-                        average_loss /= 2000
-                        print("Average loss at step ", step, ": ", average_loss)
-                        average_loss = 0
+                if step % 2000 == 0 and step != 0:
+                    average_loss /= 2000
+                    print("Average loss at step ", step, ": ", average_loss)
+                    average_loss = 0
 
                 # validation
-                if step % 10000 == 0:
+                if step % 10000 == 0 and step != 0:
                     valid_size = 16
                     valid_window = self._vocabulary_size
                     valid_examples = np.random.choice(valid_window, valid_size, replace=False)
@@ -208,13 +213,15 @@ class SkipGram(object):
         return
 
 
-if __name__ == '__main__':
-    fpath = 'dataset/text8'
-
-    sg = SkipGram(fpath=fpath)
+def demo1():
+    fpath = '../dataset/word2vec/dc/text8'
+    model_path = '../model/word2vec/skipgram/skip_gram.ckpt'
+    sg = SkipGram(fpath=fpath, model_path=model_path)
     sg.train()
     print(sg._final_embedings)
-    print(type(sg._final_embedings))
+    print(sg._final_embedings.shape)
+    return
 
 
-
+if __name__ == '__main__':
+    demo1()
