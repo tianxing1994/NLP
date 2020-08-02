@@ -1,8 +1,11 @@
-import nltk
+from nltk.tokenize import TweetTokenizer
 
+tk = TweetTokenizer()
 
-sent = nltk.corpus.treeback.tagged_sents()[22]
-print(sent)
-ret = nltk.ne_chunk(sent, binary=True)
-print(ret)
+fpath = 'test.enc'
+with open(fpath, 'r', encoding='utf-8') as f:
+    for line in f:
+        print(line)
 
+        geek = tk.tokenize(line)
+        print(geek)

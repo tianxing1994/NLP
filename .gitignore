@@ -2,7 +2,10 @@
 
 .idea
 
+data/
+
 dataset/chinese_document
+dataset/english_document/big.txt
 dataset/jieba_dataset
 dataset/max_matching_corpus
 dataset/nlp_data
@@ -10,3 +13,6 @@ dataset/others
 dataset/part_of_speech_tagging_data
 dataset/fasttest_dataset/cooking.stackexchange
 dataset/novel
+dataset/word2vec/dc
+
+model/
