@@ -16,3 +16,5 @@ dataset/novel
 dataset/word2vec/dc
 
 model/
+
+tf_tools/outputs

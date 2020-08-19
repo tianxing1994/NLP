@@ -34,6 +34,16 @@ $$\begin{aligned} i_{t} = \sigma (W_{ix}x_{t} + W_{im} m_{t-1} + W_{ic}c_{t-1} +
 
 其中: $W$ 项为权重矩阵. $W_{ix}$ 是输入门到输入的权重矩阵, $W_{ic}, W_{fc}, W_{oc}$ 是用于窥孔连接的对角线权重矩阵. $b$ 项表示偏置矢量 ($b_{i}$ 是输入门偏置矢量), $\sigma$ 是逻辑 $sigmoid$ 函数, 而 $i, f, o, c$ 分别是输入门, 忘记门, 输出门和单元激活向量. 它们的大小都与单元输出激活向量 $m$ 相同, $\odot$ 是向量的按元素乘积 (不是内积), $g$ 和 $h$ 是单元输入和单元输出激活函数, 在本文中使用的是 $tanh$, $\phi$ 是网络输出激活函数 $softmax$ 在本文中. 
 
+其中: 
+
+* $x_{t}$ 形状为: $(\text{batch_size}, \text{embedding_size})$ . 
+* $m_{t-1}, c_{t-1}$ 形状为: $(\text{batch_size}, \text{units})$.  在 LSTMCell 单元初始化时, 需要初始化此变量. 应注意, $\text{batch_size}$ 中的每个初始状态应一样, 变量的形状应为 $(\text{1, units})$, 然后扩展到 $(\text{batch_size}, \text{units})$ 形状.
+* $W_{ix}$ 形状为: $(\text{embedding_size}, \text{units})$ . 
+* $W_{im}, W_{ic}$ 形状: $(\text{units}, \text{units})$. 
+* $b_{i}$ 形状为: $(\text{1, units})$. 
+
+
+
 
 
 ```python
