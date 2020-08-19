@@ -2,34 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c147c587-16d9-4123-82f7-ca378f317f4c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/chinese_punctuation" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/doc/LSA 主题模型.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gensim/demo1.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gensim/test.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pycorector/中文纠错.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tensorflow/GloVe.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tensorflow/cnn_sentence.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tensorflow/fasttest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tensorflow/skipgram.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tensorflow/text_cnn/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tensorflow/transformer.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/utils/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/utils/load_data.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/utils/preprocessing/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/utils/preprocessing/format_transform.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xmnlp/test.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/算法实现/LSA 主题分析.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/算法实现/正则表达式.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/算法实现/英文单词纠错.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/attention/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/attention/attention_mask.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/attention/encoder.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/attention/encoder_block.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/attention/feed_forward.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/attention/layer_normalization.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/attention/multihead_attention.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/attention/positional_embedding.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/attention/scaled_dot_product.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/attention/sequence_mask.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/bert/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/bert/bert.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/bert/bert_for_mlm.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/bert/bert_for_nsp.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/bert/embedding.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/bert/encoder.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/bert/matmul.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/common/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/common/convolution.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/common/crf.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/common/dense.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/common/embedding.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/common/rnn_cell.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/common/viterbi.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/config.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/debug_tools/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/debug_tools/common.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/examples/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/examples/demo1.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/examples/rnn_cell/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/examples/rnn_cell/demo1.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/examples/rnn_cell/dynamic_rnn.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/induction/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/induction/attention.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/induction/class_query.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/induction/dynamic_routing.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/nn/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/nn/activation/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/nn/activation/gelu.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tf_tools/nn/dynamic_rnn.py" />
       <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/doc/论文/最大熵方法作中文分词.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/nltk/test.py" afterPath="$PROJECT_DIR$/nltk/test.py" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tensorflow/test.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/doc/paper/[LSTM] 用于大规模声学建模的长短期记忆递归神经网络架构.md" afterPath="$PROJECT_DIR$/doc/paper/[LSTM] 用于大规模声学建模的长短期记忆递归神经网络架构.md" />
       <change beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
-      <change beforePath="$PROJECT_DIR$/算法实现/文本关键字提取/TextRank 文本关键字提取/TextRank 文本关键字提取.py" afterPath="$PROJECT_DIR$/算法实现/文本关键字提取/TextRank 文本关键字提取/TextRank 文本关键字提取.py" />
-      <change beforePath="$PROJECT_DIR$/练习实例/test.py" afterPath="$PROJECT_DIR$/练习实例/test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,39 +56,70 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/NLP$demo.coverage" NAME="demo Coverage Results" MODIFIED="1584784640551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp" />
+    <SUITE FILE_PATH="coverage/NLP$dynamic_routing.coverage" NAME="dynamic_routing Coverage Results" MODIFIED="1597839751477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/induction" />
     <SUITE FILE_PATH="coverage/NLP$TextRank_.coverage" NAME="TextRank 文本关键字提取 Coverage Results" MODIFIED="1593054377841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法实现/文本关键字提取/TextRank 文本关键字提取" />
     <SUITE FILE_PATH="coverage/NLP$TF_IDF_.coverage" NAME="TF-IDF 文本关键字提取 Coverage Results" MODIFIED="1593054635561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法实现/文本关键字提取/TF-IDF 文本关键字提取" />
-    <SUITE FILE_PATH="coverage/NLP$test_whoosh.coverage" NAME="test_whoosh Coverage Results" MODIFIED="1584960195555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/miyukinakajima1994-jieba-master/jieba/test" />
-    <SUITE FILE_PATH="coverage/NLP$test.coverage" NAME="test Coverage Results" MODIFIED="1594309344715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NLP$test.coverage" NAME="test Coverage Results" MODIFIED="1597497816405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NLP$train.coverage" NAME="train Coverage Results" MODIFIED="1596374389035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow/text_cnn" />
     <SUITE FILE_PATH="coverage/NLP$test_change_dictpath.coverage" NAME="test_change_dictpath Coverage Results" MODIFIED="1584958526956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/miyukinakajima1994-jieba-master/jieba/test" />
     <SUITE FILE_PATH="coverage/NLP$LSA_.coverage" NAME="LSA 主题分析 Coverage Results" MODIFIED="1593142531287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法实现" />
+    <SUITE FILE_PATH="coverage/NLP$scaled_dot_product__1_.coverage" NAME="scaled_dot_product (1) Coverage Results" MODIFIED="1596804359530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/attention" />
+    <SUITE FILE_PATH="coverage/NLP$embedding.coverage" NAME="embedding Coverage Results" MODIFIED="1596982907060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/common" />
+    <SUITE FILE_PATH="coverage/NLP$rnn_cell.coverage" NAME="rnn_cell Coverage Results" MODIFIED="1597331150809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/common" />
     <SUITE FILE_PATH="coverage/NLP$test_tokenize.coverage" NAME="test_tokenize Coverage Results" MODIFIED="1584959956060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/miyukinakajima1994-jieba-master/jieba/test" />
-    <SUITE FILE_PATH="coverage/NLP$skipgram.coverage" NAME="skipgram Coverage Results" MODIFIED="1592911476896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow" />
-    <SUITE FILE_PATH="coverage/NLP$GloVe.coverage" NAME="GloVe Coverage Results" MODIFIED="1593243065213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow" />
-    <SUITE FILE_PATH="coverage/NLP$test_lock.coverage" NAME="test_lock Coverage Results" MODIFIED="1584958989614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/miyukinakajima1994-jieba-master/jieba/test" />
     <SUITE FILE_PATH="coverage/NLP$test_paddle_postag.coverage" NAME="test_paddle_postag Coverage Results" MODIFIED="1584959785064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/miyukinakajima1994-jieba-master/jieba/test" />
-    <SUITE FILE_PATH="coverage/NLP$test__3_.coverage" NAME="test (3) Coverage Results" MODIFIED="1592318371042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycorector" />
-    <SUITE FILE_PATH="coverage/NLP$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1592915577331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gensim" />
-    <SUITE FILE_PATH="coverage/NLP$TextRank___1_.coverage" NAME="TextRank 文本关键字提取 (1) Coverage Results" MODIFIED="1584976905999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法实现/文本关键字提取/TextRank 文本关键字提取" />
-    <SUITE FILE_PATH="coverage/NLP$jieba_test.coverage" NAME="jieba_test Coverage Results" MODIFIED="1584958292776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/miyukinakajima1994-jieba-master/jieba/test" />
-    <SUITE FILE_PATH="coverage/NLP$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1595425809638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nltk" />
+    <SUITE FILE_PATH="coverage/NLP$dense.coverage" NAME="dense Coverage Results" MODIFIED="1596983594119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/common" />
+    <SUITE FILE_PATH="coverage/NLP$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1596727652405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow/tools" />
+    <SUITE FILE_PATH="coverage/NLP$bert_embedding.coverage" NAME="bert_embedding Coverage Results" MODIFIED="1596976734016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/bert" />
+    <SUITE FILE_PATH="coverage/NLP$crf.coverage" NAME="crf Coverage Results" MODIFIED="1597565045078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/common" />
+    <SUITE FILE_PATH="coverage/NLP$attention.coverage" NAME="attention Coverage Results" MODIFIED="1597840380934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/induction" />
+    <SUITE FILE_PATH="coverage/NLP$sequence_mask__1_.coverage" NAME="sequence_mask (1) Coverage Results" MODIFIED="1596804275998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/attention" />
     <SUITE FILE_PATH="coverage/NLP$test_userdict.coverage" NAME="test_userdict Coverage Results" MODIFIED="1584782940051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp" />
-    <SUITE FILE_PATH="coverage/NLP$test_bug.coverage" NAME="test_bug Coverage Results" MODIFIED="1584958496308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/miyukinakajima1994-jieba-master/jieba/test" />
-    <SUITE FILE_PATH="coverage/NLP$TF_IDF___1_.coverage" NAME="TF-IDF 逆文本频率指数计算 (1) Coverage Results" MODIFIED="1584776207070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法实现/文本关键字提取/TF-IDF 文本关键字提取" />
     <SUITE FILE_PATH="coverage/NLP$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1592737192084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gensim" />
     <SUITE FILE_PATH="coverage/NLP$test_paddle.coverage" NAME="test_paddle Coverage Results" MODIFIED="1584959612565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/miyukinakajima1994-jieba-master/jieba/test" />
     <SUITE FILE_PATH="coverage/NLP$_HMM_.coverage" NAME="隐马尔科夫模型 HMM 实现中文分词 Coverage Results" MODIFIED="1593013712809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法实现/中文分词" />
+    <SUITE FILE_PATH="coverage/NLP$bert_for_mlm.coverage" NAME="bert_for_mlm Coverage Results" MODIFIED="1596986603400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/bert" />
+    <SUITE FILE_PATH="coverage/NLP$demo.coverage" NAME="demo Coverage Results" MODIFIED="1584784640551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp" />
+    <SUITE FILE_PATH="coverage/NLP$test_whoosh.coverage" NAME="test_whoosh Coverage Results" MODIFIED="1584960195555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/miyukinakajima1994-jieba-master/jieba/test" />
+    <SUITE FILE_PATH="coverage/NLP$bert_matmul.coverage" NAME="bert_matmul Coverage Results" MODIFIED="1596985580962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/bert" />
+    <SUITE FILE_PATH="coverage/NLP$convolution.coverage" NAME="convolution Coverage Results" MODIFIED="1597061992671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/common" />
+    <SUITE FILE_PATH="coverage/NLP$bert_nsp.coverage" NAME="bert_nsp Coverage Results" MODIFIED="1596978146214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/bert" />
+    <SUITE FILE_PATH="coverage/NLP$bert_encoder.coverage" NAME="bert_encoder Coverage Results" MODIFIED="1596975907370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/bert" />
+    <SUITE FILE_PATH="coverage/NLP$scaled_dot_product.coverage" NAME="scaled_dot_product Coverage Results" MODIFIED="1596922623458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/attention" />
+    <SUITE FILE_PATH="coverage/NLP$encoder_block.coverage" NAME="encoder_block Coverage Results" MODIFIED="1596923589839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/attention" />
+    <SUITE FILE_PATH="coverage/NLP$skipgram.coverage" NAME="skipgram Coverage Results" MODIFIED="1592911476896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow" />
+    <SUITE FILE_PATH="coverage/NLP$GloVe.coverage" NAME="GloVe Coverage Results" MODIFIED="1593243065213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow" />
+    <SUITE FILE_PATH="coverage/NLP$test_lock.coverage" NAME="test_lock Coverage Results" MODIFIED="1584958989614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/miyukinakajima1994-jieba-master/jieba/test" />
+    <SUITE FILE_PATH="coverage/NLP$positional_embedding.coverage" NAME="positional_embedding Coverage Results" MODIFIED="1596964928467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/attention" />
+    <SUITE FILE_PATH="coverage/NLP$multihead_attention.coverage" NAME="multihead_attention Coverage Results" MODIFIED="1596974311510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/attention" />
+    <SUITE FILE_PATH="coverage/NLP$test__3_.coverage" NAME="test (3) Coverage Results" MODIFIED="1592318371042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycorector" />
+    <SUITE FILE_PATH="coverage/NLP$dynamic_rnn.coverage" NAME="dynamic_rnn Coverage Results" MODIFIED="1597851177093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/examples/rnn_cell" />
+    <SUITE FILE_PATH="coverage/NLP$bert.coverage" NAME="bert Coverage Results" MODIFIED="1596974452322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/bert" />
+    <SUITE FILE_PATH="coverage/NLP$class_query.coverage" NAME="class_query Coverage Results" MODIFIED="1597838060117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/common" />
+    <SUITE FILE_PATH="coverage/NLP$sequence_mask.coverage" NAME="sequence_mask Coverage Results" MODIFIED="1596922597119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/attention" />
+    <SUITE FILE_PATH="coverage/NLP$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1597849435528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/examples/rnn_cell" />
+    <SUITE FILE_PATH="coverage/NLP$TextRank___1_.coverage" NAME="TextRank 文本关键字提取 (1) Coverage Results" MODIFIED="1584976905999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法实现/文本关键字提取/TextRank 文本关键字提取" />
+    <SUITE FILE_PATH="coverage/NLP$feed_forward.coverage" NAME="feed_forward Coverage Results" MODIFIED="1596919733522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/attention" />
+    <SUITE FILE_PATH="coverage/NLP$attention_mask.coverage" NAME="attention_mask Coverage Results" MODIFIED="1596919081986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/attention" />
+    <SUITE FILE_PATH="coverage/NLP$viterbi.coverage" NAME="viterbi Coverage Results" MODIFIED="1597411435852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/common" />
+    <SUITE FILE_PATH="coverage/NLP$encoder.coverage" NAME="encoder Coverage Results" MODIFIED="1596921439463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/attention" />
+    <SUITE FILE_PATH="coverage/NLP$class_query__1_.coverage" NAME="class_query (1) Coverage Results" MODIFIED="1597838210737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/induction" />
+    <SUITE FILE_PATH="coverage/NLP$jieba_test.coverage" NAME="jieba_test Coverage Results" MODIFIED="1584958292776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/miyukinakajima1994-jieba-master/jieba/test" />
+    <SUITE FILE_PATH="coverage/NLP$bert_for_nsp.coverage" NAME="bert_for_nsp Coverage Results" MODIFIED="1596986616403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/bert" />
+    <SUITE FILE_PATH="coverage/NLP$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1595425809638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nltk" />
+    <SUITE FILE_PATH="coverage/NLP$test_bug.coverage" NAME="test_bug Coverage Results" MODIFIED="1584958496308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/miyukinakajima1994-jieba-master/jieba/test" />
+    <SUITE FILE_PATH="coverage/NLP$attention_encoder.coverage" NAME="attention_encoder Coverage Results" MODIFIED="1596976405431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/attention" />
+    <SUITE FILE_PATH="coverage/NLP$TF_IDF___1_.coverage" NAME="TF-IDF 逆文本频率指数计算 (1) Coverage Results" MODIFIED="1584776207070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法实现/文本关键字提取/TF-IDF 文本关键字提取" />
+    <SUITE FILE_PATH="coverage/NLP$layer_normalization.coverage" NAME="layer_normalization Coverage Results" MODIFIED="1596919296810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_tools/attention" />
     <SUITE FILE_PATH="coverage/NLP$.coverage" NAME="正则表达式 Coverage Results" MODIFIED="1593055289157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法实现" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nltk/test.py">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -99,6 +147,9 @@
       <find>get_dimension</find>
       <find>graph</find>
       <find>system</find>
+      <find>m_neg_inf</find>
+      <find>initializer_range</find>
+      <find>Dimensions of inputs should match</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,57 +158,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jieba/关键字抽取.py" />
-        <option value="$PROJECT_DIR$/jieba/中文分词.py" />
-        <option value="$PROJECT_DIR$/jieba/主题分析.py" />
-        <option value="$USER_HOME$/Desktop/AveragedPerceptronPython-master/AveragedPerceptronPython-master/AveragedPerceptron.py" />
-        <option value="$USER_HOME$/Desktop/AveragedPerceptronPython-master/AveragedPerceptronPython-master/PerceptronTagger.py" />
-        <option value="$PROJECT_DIR$/算法实现/平均感知机词性标注/test.py" />
-        <option value="$PROJECT_DIR$/算法实现/平均感知机词性标注/平均感知机词性标注.py" />
-        <option value="$PROJECT_DIR$/算法实现/词性标注/平均感知机词性标注.py" />
-        <option value="$PROJECT_DIR$/算法实现/词性标注/隐马尔可夫词性标注.py" />
-        <option value="$PROJECT_DIR$/算法实现/最小编辑距离.py" />
-        <option value="$PROJECT_DIR$/pyhanlp/关键字抽取.py" />
-        <option value="$PROJECT_DIR$/pyhanlp/句法依存分析.py" />
-        <option value="$PROJECT_DIR$/pyhanlp/README.md" />
-        <option value="$PROJECT_DIR$/pyhanlp/共性分析.py" />
-        <option value="$PROJECT_DIR$/pyhanlp/短语提取.py" />
-        <option value="$PROJECT_DIR$/pyhanlp/词法分析.py" />
-        <option value="$PROJECT_DIR$/pyhanlp/中文人名识别.py" />
-        <option value="$PROJECT_DIR$/pyhanlp/中文分词.py" />
-        <option value="$PROJECT_DIR$/pyhanlp/词性标注.py" />
-        <option value="$PROJECT_DIR$/pyhanlp/test.py" />
-        <option value="$USER_HOME$/Desktop/CRF-master/CRF-master/CRF_opt.py" />
-        <option value="$PROJECT_DIR$/算法实现/词性标注/条件随机场词性标注.py" />
-        <option value="$PROJECT_DIR$/pypinyin/test.py" />
-        <option value="$PROJECT_DIR$/test2.py" />
-        <option value="$PROJECT_DIR$/dataset/novel/大石内藏助的一天2.txt" />
-        <option value="$PROJECT_DIR$/算法实现/前缀树.py" />
-        <option value="$PROJECT_DIR$/tensorflow/test.py" />
-        <option value="$PROJECT_DIR$/算法实现/英文单词纠错.py" />
-        <option value="$PROJECT_DIR$/pycorector/test.py" />
-        <option value="$PROJECT_DIR$/练习实例/test.py" />
-        <option value="$PROJECT_DIR$/pycorector/中文纠错.py" />
-        <option value="$PROJECT_DIR$/算法实现/文本关键字提取/TextRank 文本关键字提取/TextRank 文本关键字提取.py" />
-        <option value="$PROJECT_DIR$/xmnlp/test.py" />
-        <option value="$PROJECT_DIR$/data/chinese_punctuation" />
-        <option value="$PROJECT_DIR$/utils/preprocessing/format_transform.py" />
-        <option value="$PROJECT_DIR$/gensim/test.py" />
-        <option value="$PROJECT_DIR$/tensorflow/skipgram.py" />
-        <option value="$PROJECT_DIR$/utils/load_data.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/gensim/demo1.py" />
-        <option value="$PROJECT_DIR$/tensorflow/fasttest.py" />
-        <option value="$PROJECT_DIR$/算法实现/正则表达式.py" />
-        <option value="$PROJECT_DIR$/算法实现/LSA 主题分析.py" />
-        <option value="$PROJECT_DIR$/tensorflow/GloVe.py" />
-        <option value="$PROJECT_DIR$/tensorflow/cnn_sentence.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/tensorflow/tools/test.py" />
+        <option value="$PROJECT_DIR$/tensorflow/tools/sequence_mask.py" />
+        <option value="$PROJECT_DIR$/tensorflow/tools/test2.py" />
+        <option value="$PROJECT_DIR$/tensorflow/tools/attention_mask.py" />
+        <option value="$PROJECT_DIR$/tensorflow/tools/scaled_dot_product.py" />
+        <option value="$PROJECT_DIR$/tf_tools/config.py" />
+        <option value="$PROJECT_DIR$/tf_tools/attention/attention_mask.py" />
+        <option value="$PROJECT_DIR$/tf_tools/attention/scaled_dot_product.py" />
+        <option value="$PROJECT_DIR$/tf_tools/attention/sequence_mask.py" />
+        <option value="$PROJECT_DIR$/tf_tools/debug_tools/tensorbroad.py" />
+        <option value="$PROJECT_DIR$/tf_tools/attention/layer_normalization.py" />
+        <option value="$PROJECT_DIR$/tf_tools/embedding.py" />
+        <option value="$PROJECT_DIR$/tf_tools/attention/positional_embedding.py" />
+        <option value="$PROJECT_DIR$/tf_tools/dense.py" />
+        <option value="$PROJECT_DIR$/tf_tools/bert/bert.py" />
+        <option value="$PROJECT_DIR$/tf_tools/attention/feed_forward.py" />
+        <option value="$PROJECT_DIR$/tf_tools/attention/encoder_block.py" />
+        <option value="$PROJECT_DIR$/tf_tools/attention/attention_encoder.py" />
+        <option value="$PROJECT_DIR$/tf_tools/bert/bert_embedding.py" />
+        <option value="$PROJECT_DIR$/tf_tools/attention/multihead_attention.py" />
+        <option value="$PROJECT_DIR$/tf_tools/bert/bert_nsp.py" />
+        <option value="$PROJECT_DIR$/tf_tools/common/embedding.py" />
+        <option value="$PROJECT_DIR$/tf_tools/common/dense.py" />
+        <option value="$PROJECT_DIR$/tf_tools/bert/bert_matmul.py" />
+        <option value="$PROJECT_DIR$/tf_tools/attention/encoder.py" />
+        <option value="$PROJECT_DIR$/tf_tools/bert/bert_encoder.py" />
+        <option value="$PROJECT_DIR$/tf_tools/bert/encoder.py" />
+        <option value="$PROJECT_DIR$/tf_tools/bert/matmul.py" />
+        <option value="$PROJECT_DIR$/tf_tools/bert/embedding.py" />
+        <option value="$PROJECT_DIR$/tf_tools/bert/bert_for_mlm.py" />
+        <option value="$PROJECT_DIR$/tf_tools/bert/bert_for_nsp.py" />
+        <option value="$PROJECT_DIR$/tf_tools/common/dynamic_rnn.py" />
+        <option value="$PROJECT_DIR$/tf_tools/nn.py" />
+        <option value="$PROJECT_DIR$/tf_tools/nn/__init__.py" />
+        <option value="$PROJECT_DIR$/tf_tools/common/rnn_cell.py" />
+        <option value="$PROJECT_DIR$/tf_tools/nn/dynamic_rnn.py" />
+        <option value="$PROJECT_DIR$/tf_tools/examples.py" />
+        <option value="$PROJECT_DIR$/tf_tools/debug_tools/common.py" />
+        <option value="$PROJECT_DIR$/tf_tools/common/viterbi.py" />
+        <option value="$PROJECT_DIR$/tf_tools/nn/activation/gelu.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/tensorflow/transformer.py" />
-        <option value="$PROJECT_DIR$/nltk/test.py" />
-        <option value="$PROJECT_DIR$/tensorflow/text_cnn/train.py" />
-        <option value="$PROJECT_DIR$/tensorflow/text_cnn/predict.py" />
+        <option value="$PROJECT_DIR$/tf_tools/common/crf.py" />
+        <option value="$PROJECT_DIR$/tf_tools/common/convolution.py" />
+        <option value="$PROJECT_DIR$/tf_tools/common/class_query.py" />
+        <option value="$PROJECT_DIR$/tf_tools/induction/dynamic_routing.py" />
+        <option value="$PROJECT_DIR$/tf_tools/induction/attention.py" />
+        <option value="$PROJECT_DIR$/tf_tools/induction/class_query.py" />
+        <option value="$PROJECT_DIR$/tf_tools/examples/demo1.py" />
+        <option value="$PROJECT_DIR$/tf_tools/examples/rnn_cell/demo1.py" />
+        <option value="$PROJECT_DIR$/tf_tools/examples/rnn_cell/dynamic_rnn.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -168,10 +219,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="173" />
-    <option name="y" value="220" />
-    <option name="width" value="1940" />
-    <option name="height" value="923" />
+    <option name="x" value="93" />
+    <option name="y" value="441" />
+    <option name="width" value="1718" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -205,6 +256,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,20 +268,25 @@
             <path>
               <item name="NLP" type="b2602c69:ProjectViewProjectNode" />
               <item name="NLP" type="462c0819:PsiDirectoryNode" />
-              <item name="tensorflow" type="462c0819:PsiDirectoryNode" />
+              <item name="tf_tools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NLP" type="b2602c69:ProjectViewProjectNode" />
               <item name="NLP" type="462c0819:PsiDirectoryNode" />
-              <item name="tensorflow" type="462c0819:PsiDirectoryNode" />
-              <item name="text_cnn" type="462c0819:PsiDirectoryNode" />
+              <item name="tf_tools" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NLP" type="462c0819:PsiDirectoryNode" />
+              <item name="tf_tools" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="rnn_cell" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,19 +296,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Administrator\PycharmProjects\NLP\tf_tools\induction" />
+      <recent name="D:\Users\Administrator\PycharmProjects\NLP\tf_tools\nn" />
+      <recent name="D:\Users\Administrator\PycharmProjects\NLP\tf_tools\common" />
+      <recent name="D:\Users\Administrator\PycharmProjects\NLP\tf_tools\attention" />
+      <recent name="D:\Users\Administrator\PycharmProjects\NLP\doc" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Users\Administrator\PycharmProjects\NLP\dataset\others" />
       <recent name="D:\Users\Administrator\PycharmProjects\NLP\dataset\part_of_speech_tagging_data\small_data" />
       <recent name="D:\Users\Administrator\PycharmProjects\NLP\算法实现\文本关键字提取" />
       <recent name="D:\Users\Administrator\PycharmProjects\NLP\doc" />
       <recent name="D:\Users\Administrator\PycharmProjects\NLP" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Users\Administrator\PycharmProjects\NLP\doc" />
-      <recent name="D:\Users\Administrator\PycharmProjects\NLP\dataset\others\testcorpus" />
-      <recent name="D:\Users\Administrator\PycharmProjects\NLP\dataset\novel" />
-      <recent name="D:\Users\Administrator\PycharmProjects\NLP\dataset\part_of_speech_tagging_data" />
-      <recent name="D:\Users\Administrator\PycharmProjects\NLP\dataset\part_of_speech_tagging_data\others" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -265,83 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.train">
-    <configuration name="隐马尔科夫模型 HMM 实现中文分词" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法实现/中文分词" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="NLP" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法实现/中文分词/隐马尔科夫模型 HMM 实现中文分词.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="GloVe" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="NLP" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow/GloVe.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="LSA 主题分析" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法实现" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="NLP" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法实现/LSA 主题分析.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="隐马尔可夫词性标注" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法实现/词性标注" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="NLP" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法实现/词性标注/隐马尔可夫词性标注.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.dynamic_rnn">
     <configuration name="主题分析" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -356,44 +338,6 @@
       <module name="NLP" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jieba/主题分析.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="中文分词" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jieba" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="NLP" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jieba/中文分词.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="短语提取" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyhanlp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="NLP" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyhanlp/短语提取.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -456,44 +400,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="中文分词" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jieba" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="NLP" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jieba/中文分词.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="关键字抽取" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jieba" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="NLP" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jieba/关键字抽取.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="主题分析" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -513,25 +419,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="逆向最大匹配算法" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法实现/中文分词" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="NLP" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法实现/中文分词/逆向最大匹配算法.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="条件随机场词性标注" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -551,153 +438,172 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="英文单词纠错" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="attention" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法实现" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tf_tools/induction" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="NLP" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法实现/英文单词纠错.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf_tools/induction/attention.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="中文分词" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bert_for_nsp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyhanlp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tf_tools/bert" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="NLP" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyhanlp/中文分词.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf_tools/bert/bert_for_nsp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="隐马尔可夫词性标注" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="class_query (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法实现/词性标注" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tf_tools/induction" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="NLP" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法实现/词性标注/隐马尔可夫词性标注.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf_tools/induction/class_query.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="条件随机场词性标注" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="class_query" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法实现/词性标注" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tf_tools/common" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="NLP" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法实现/词性标注/条件随机场词性标注.py" />
+      <option name="SCRIPT_NAME" value="D:\Users\Administrator\PycharmProjects\NLP\tf_tools\induction\class_query.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="中文分词" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="crf" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jieba" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tf_tools/common" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="NLP" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jieba/中文分词.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf_tools/common/crf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="共性分析" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyhanlp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tf_tools/examples/rnn_cell" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="NLP" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyhanlp/共性分析.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf_tools/examples/rnn_cell/demo1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="中文分词" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dynamic_rnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyhanlp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tf_tools/examples/rnn_cell" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="NLP" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyhanlp/中文分词.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf_tools/examples/rnn_cell/dynamic_rnn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dynamic_routing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nltk" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tf_tools/induction" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="NLP" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nltk/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf_tools/induction/dynamic_routing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="encoder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tf_tools/attention" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NLP" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf_tools/attention/encoder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -722,39 +628,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow/text_cnn" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="NLP" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow/text_cnn/train.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.LSA 主题分析" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.GloVe" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.train" />
+      <item index="0" class="java.lang.String" itemvalue="Python.test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.class_query" />
+      <item index="2" class="java.lang.String" itemvalue="Python.attention" />
+      <item index="3" class="java.lang.String" itemvalue="Python.demo1" />
+      <item index="4" class="java.lang.String" itemvalue="Python.dynamic_rnn" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.train" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.GloVe" />
-        <item index="4" class="java.lang.String" itemvalue="Python.LSA 主题分析" />
+        <item index="0" class="java.lang.String" itemvalue="Python.dynamic_rnn" />
+        <item index="1" class="java.lang.String" itemvalue="Python.demo1" />
+        <item index="2" class="java.lang.String" itemvalue="Python.attention" />
+        <item index="3" class="java.lang.String" itemvalue="Python.class_query" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -776,20 +663,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31960997" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2635379" sideWeight="0.50142246" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48172042" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30295566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16204691" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28710726" sideWeight="0.49857754" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35861322" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21801706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3629131" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39869988" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39786857" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -840,364 +728,276 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/pycorrector/__init__.py">
+    <entry file="file://$PROJECT_DIR$/tf_tools/bert/bert.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="307">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="63" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/others/testcorpus/testcorpus.txt">
+    <entry file="file://$PROJECT_DIR$/tf_tools/attention/feed_forward.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/novel/织田信长_segment.txt">
+    <entry file="file://$PROJECT_DIR$/tf_tools/common/embedding.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="660">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/load_data.py">
+    <entry file="file://$PROJECT_DIR$/tf_tools/attention/layer_normalization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="-80">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/gensim/models/word2vec.py">
+    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/tensorflow/python/ops/gen_math_ops.py" />
+    <entry file="file://$PROJECT_DIR$/tf_tools/attention/sequence_mask.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="482" column="0" lean-forward="true" selection-start-line="482" selection-start-column="0" selection-end-line="482" selection-end-column="0" />
+        <state relative-caret-position="597">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/chinese_punctuation">
+    <entry file="file://$PROJECT_DIR$/tf_tools/attention/scaled_dot_product.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        <state relative-caret-position="654">
+          <caret line="49" column="12" lean-forward="false" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/tf_tools/attention/positional_embedding.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="65" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pycorector/中文纠错.py">
+    <entry file="file://$PROJECT_DIR$/tf_tools/attention/encoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="506">
+          <caret line="114" column="25" lean-forward="false" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xmnlp/test.py">
+    <entry file="file://$PROJECT_DIR$/tf_tools/bert/encoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="459">
+          <caret line="192" column="0" lean-forward="true" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/gensim/matutils.py">
+    <entry file="file://$PROJECT_DIR$/tf_tools/bert/matmul.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="732" column="15" lean-forward="false" selection-start-line="732" selection-start-column="12" selection-end-line="732" selection-end-column="15" />
+        <state relative-caret-position="553">
+          <caret line="74" column="24" lean-forward="false" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/gensim/models/base_any2vec.py">
+    <entry file="file://$PROJECT_DIR$/tf_tools/bert/embedding.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="1441" column="34" lean-forward="false" selection-start-line="1441" selection-start-column="32" selection-end-line="1441" selection-end-column="34" />
+        <state relative-caret-position="487">
+          <caret line="116" column="0" lean-forward="true" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/gensim/models/keyedvectors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="975" column="8" lean-forward="false" selection-start-line="975" selection-start-column="8" selection-end-line="975" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/Word2Vec 词向量.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-630">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/tensorflow/python/ops/losses/losses_impl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12285">
-          <caret line="836" column="18" lean-forward="false" selection-start-line="836" selection-start-column="12" selection-end-line="836" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/tensorflow/python/training/learning_rate_decay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/nlp_data/tf-idf.txt">
+    <entry file="file://$PROJECT_DIR$/tf_tools/bert/bert_for_mlm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/算法实现/文本关键字提取/TF-IDF 文本关键字提取/TF-IDF 逆文本频率指数计算.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法实现/文本关键字提取/TextRank 文本关键字提取/TextRank 文本关键字提取.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法实现/中文分词/隐马尔科夫模型 HMM 实现中文分词.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="187" column="0" lean-forward="false" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法实现/中文分词/最大匹配算法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1665">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/chinese_document/C5-Education/C5-Education002.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/chinese_document/C11-Space/C11-Space0001.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/chinese_document/C11-Space/C11-Space0040.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/others/mini_documents/C3-Art0001.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法实现/文本关键字提取/TF-IDF 文本关键字提取/TF-IDF 文本关键字提取.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="38" column="19" lean-forward="false" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/sklearn/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="439" column="8" lean-forward="false" selection-start-line="439" selection-start-column="8" selection-end-line="439" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/sklearn/feature_extraction/text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="835" column="0" lean-forward="true" selection-start-line="835" selection-start-column="0" selection-end-line="835" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法实现/LSA 主题分析.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法实现/英文单词纠错.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/练习实例/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法实现/正则表达式.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="268" column="0" lean-forward="true" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow/GloVe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow/skipgram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gensim/demo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="99" column="18" lean-forward="true" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gensim/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow/fasttest.py">
+    <entry file="file://$PROJECT_DIR$/tf_tools/bert/bert_for_nsp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="37" column="31" lean-forward="false" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/tensorflow/python/ops/variable_scope.py">
+    <entry file="file://$PROJECT_DIR$/tf_tools/debug_tools/tensorbroad.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/tensorflow/python/layers/convolutional.py" />
+    <entry file="file://$PROJECT_DIR$/tf_tools/common/dense.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="1464" column="21" lean-forward="false" selection-start-line="1464" selection-start-column="17" selection-end-line="1464" selection-end-column="21" />
+        <state relative-caret-position="38">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/tensorflow/python/ops/init_ops.py">
+    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/tensorflow/python/ops/random_ops.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/tensorflow/python/framework/ops.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/tensorflow/python/ops/variable_scope.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/tensorflow/python/ops/rnn_cell_impl.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/paddle/fluid/layers/control_flow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="312" column="6" lean-forward="false" selection-start-line="312" selection-start-column="6" selection-end-line="312" selection-end-column="6" />
+        <state relative-caret-position="-207">
+          <caret line="2077" column="20" lean-forward="false" selection-start-line="2077" selection-start-column="13" selection-end-line="2077" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/tensorflow/python/framework/constant_op.py">
+    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/paddle/fluid/contrib/decoder/beam_search_decoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="118" column="4" lean-forward="false" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="4" />
+        <state relative-caret-position="258">
+          <caret line="416" column="38" lean-forward="false" selection-start-line="416" selection-start-column="38" selection-end-line="416" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt" />
-    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/tensorflow/python/layers/core.py">
+    <entry file="file://$PROJECT_DIR$/tf_tools/nn.py" />
+    <entry file="file://$PROJECT_DIR$/tf_tools/nn/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="117" column="4" lean-forward="false" selection-start-line="117" selection-start-column="4" selection-end-line="117" selection-end-column="4" />
+        <state relative-caret-position="132">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow/transformer.py">
+    <entry file="file://$PROJECT_DIR$/tf_tools/examples.py" />
+    <entry file="file://$PROJECT_DIR$/tf_tools/debug_tools/common.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="206" column="0" lean-forward="true" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+        <state relative-caret-position="44">
+          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow/cnn_sentence.py">
+    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/tensorflow/python/ops/gen_nn_ops.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/tensorflow/python/ops/nn_ops.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/tensorflow/python/framework/constant_op.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-527864634/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="244">
+          <caret line="3756" column="24" lean-forward="false" selection-start-line="3756" selection-start-column="15" selection-end-line="3756" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/tensorflow/python/ops/array_ops.py">
+    <entry file="file://$PROJECT_DIR$/tf_tools/nn/activation/gelu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="1019" column="4" lean-forward="false" selection-start-line="1019" selection-start-column="4" selection-end-line="1019" selection-end-column="4" />
+        <state relative-caret-position="682">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/nltk/tokenize/casual.py">
+    <entry file="file://$PROJECT_DIR$/tf_tools/common/rnn_cell.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="282" column="24" lean-forward="true" selection-start-line="282" selection-start-column="24" selection-end-line="282" selection-end-column="24" />
+        <state relative-caret-position="1790">
+          <caret line="86" column="29" lean-forward="false" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/tensorflow/python/ops/variables.py" />
+    <entry file="file://$PROJECT_DIR$/tf_tools/common/viterbi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf_tools/nn/dynamic_rnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/tensorflow/python/util/deprecation.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/tensorflow/python/ops/math_ops.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/tensorflow/python/ops/array_ops.py" />
+    <entry file="file://$PROJECT_DIR$/tf_tools/common/crf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="312" column="0" lean-forward="false" selection-start-line="312" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf_tools/common/convolution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf_tools/induction/dynamic_routing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/envs/NLP/Lib/site-packages/tensorflow_core/python/util/deprecation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="506" column="0" lean-forward="false" selection-start-line="506" selection-start-column="0" selection-end-line="506" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf_tools/induction/class_query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf_tools/induction/attention.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding>
+            <element signature="e#43#61#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf_tools/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nltk/test.enc">
+    <entry file="file://$PROJECT_DIR$/tf_tools/examples/demo1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="13">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow/text_cnn/predict.py">
+    <entry file="file://$PROJECT_DIR$/tf_tools/examples/rnn_cell/dynamic_rnn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="-565">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <element signature="e#43#52#0" expanded="true" />
+            <element signature="e#43#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow/text_cnn/train.py">
+    <entry file="file://$PROJECT_DIR$/tf_tools/examples/rnn_cell/demo1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#43#52#0" expanded="true" />
+            <element signature="e#43#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nltk/test.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding />
         </state>
       </provider>
